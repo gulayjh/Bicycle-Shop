@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./javascript/bicycle.js"></script>
+  <title></title>
+</head>
+<body>
+<!------------ Navbar  ------------>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+              <div class="navbar-nav">  
+             <img src="./img/logo.png" style="width: 7%;"></br>
+             <a class="nav-item nav-link active" href="#carouselhome">Home</a>
+             <a class="nav-item nav-link" href="#about">About</a>
+             <a class="nav-item nav-link" href="#store">Stores</a>
+             <a class="nav-item nav-link" href="#bicycle">Bicycles</a>
+             <a class="nav-item nav-link" href="#contact">Contact</a>
+           </div> 
+          </div>
+       </div>
+        
+    </nav>
+<!------------ Carousel  ------------>   
+
+   <div id="carouselhome" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          
+          <img src="./img/crs1.jpg" class="d-block w-100" alt="crs1">
+          <h1 class="ml12" style="left: 20%; font-size: 3rem;">START A NEW JOURNEY</h1>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/crs2.jpg" class="d-block w-100" alt="...">
+        <a href="#contact" class="btn btn-lg" id="hvr-push" >Contact Us</a>
+        <h1 class="ml12" style="left : 10%; background-color: rgba(128, 128, 128, 0.336);">A NEW PRODUCTION </h1>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/crs3.jpg" class="d-block w-100" alt="...">
+        <h1 class="ml12" style="left: 25%; font-size: 4rem; color: rgb(224, 204, 204)">BEST QUALITY</h1>
+        <a href="#bicycle" class="btn btn-lg" id="hvr-push" style="left:45%">Buy Now!</a>
+       
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselhome" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselhome" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ <!----------------Tabs-----------------> 
+       <h2 class="display-4 text-center py-5 my-4" id="about">About Us</h2>
+         <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+           <a class="nav-link active" href="#history" data-toggle="tab"> History</a>
+           <a class="nav-link" href="#quality" data-toggle="tab"> Quality</a>
+           <a class="nav-link" href="#personnel" data-toggle="tab"> Personnel</a>
+         </nav>
+<div class="jumbotron" style="height: max-content;">
+ <div class="tab-content py-5">
+   <div class="tab-pane active" id="history">
+     <h3>How everything began</h3></br></br>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at quos quis eius 
+          quae nulla quia rerum, consequuntur corporis assumenda saepe enim doloremque, tenetur ipsa 
+         nam vero nostrum rem quas quo unde expedita aspernatur cupiditate possimus sint! Eum blanditiis
+         magnam incidunt, nulla nobis aliquid amet distinctio ipsa recusandae, at cum perferendis corporis.
+         Assumenda, quidem! Autem quis perferendis tenetur unde soluta, accusantium perspiciatis natus 
+         voluptatum porro, neque dignissimos, doloribus nisi deleniti ipsum explicabo consectetur libero 
+         quisquam pariatur suscipit! Voluptates dolorem beatae harum veniam excepturi temporibus laborum, 
+         atque, sit dolorum cupiditate est odio ipsum,  Voluptates dolorem beatae harum veniam excepturi temporibus laborum, 
+         atque, sit dolorum cupiditate est odio ipsum, 
+         dolor neque perferendis ducimus quaerat illo nisi velit?
+         dolor neque perferendis ducimus quaerat illo nisi velit?
+      </p>
+    </div>
+  
+    <div class="tab-pane" id="quality">
+      <h3>Best Products </h3></br></br>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at quos quis eius 
+           quae nulla quia rerum, consequuntur corporis assumenda saepe enim doloremque, tenetur ipsa 
+          nam vero nostrum rem quas quo unde expedita aspernatur cupiditate possimus sint! Eum blanditiis
+          magnam incidunt, nulla nobis aliquid amet distinctio ipsa recusandae, at cum perferendis corporis.
+          Assumenda, quidem! Autem quis perferendis tenetur unde soluta, accusantium perspiciatis natus 
+          voluptatum porro, neque dignissimos, doloribus nisi deleniti ipsum explicabo consectetur libero 
+          quisquam pariatur suscipit! Voluptates dolorem beatae harum veniam excepturi temporibus laborum, 
+          atque, sit dolorum cupiditate est odio ipsum, 
+          dolor neque perferendis ducimus quaerat illo nisi velit?
+       </p>
+     </div>
+     <div class="tab-pane" id="personnel">
+      <h3>Highly Educated Workers</h3></br></br>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at quos quis eius 
+           quae nulla quia rerum, consequuntur corporis assumenda saepe enim doloremque, tenetur ipsa 
+          nam vero nostrum rem quas quo unde expedita aspernatur cupiditate possimus sint! Eum blanditiis
+          magnam incidunt, nulla nobis aliquid amet distinctio ipsa recusandae, at cum perferendis corporis.
+          Assumenda, quidem! , 
+          dolor neque perferendis ducimus quaerat illo nisi velit?
+       </p>
+     </div>
+</div>
+</div>
+<!------------------Stores------------------>
+
+  <div class="container text-muted">
+    <h2 class="display-4 text-center py-5 my-4" id="store">Our Stores</h2>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <img src="./img/store1.jpg" class="card-img-top img-fluid">
+                <div class="card-block">
+                    <h3 class="card-title"><a href="#contact">Store 1</a></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil veniam voluptates fugit temporibus? Iste expedita beatae dolores possimus asperiores.</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class=" col-lg-4">
+          <div class="card">
+              <img src="./img/store2.jpg" class="card-img-top img-fluid">
+              <div class="card-block">
+                <h3 class="card-title"><a href="#contact">Store 2</a></h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil veniam voluptates fugit temporibus? Iste expedita beatae dolores possimus asperiores.</p>
+              </div>
+              
+          </div>
+      </div>
+
+
+      <div class=" col-lg-4">
+        <div class="card">
+            <img src="./img/store3.jpg" class="card-img-top img-fluid">
+            <div class="card-block">
+              <h3 class="card-title"><a href="#contact">Store 3</a></h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil veniam voluptates fugit temporibus? Iste expedita beatae dolores possimus asperiores.</p>
+            </div>
+            
+        </div>
+    </div>
+
+
+<!--------------Bicycles------------------>
+ <div class="container">
+  <h2 class="display-4 text-center py-5 my-4" id="bicycle">Our Products</h2>
+   <div class="row">
+     <div class="col-lg-3 col-md-6 col-sm-12">
+       <img src="./img/photo1.jpg" class="hvr-grow">
+     </div>
+     <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo2.jpg" class="hvr-grow">
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo3.jpg" class="hvr-grow">
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo4.jpg" class="hvr-grow">
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo5.jpg" class="hvr-grow">
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo6.jpg" class="hvr-grow">
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo7.jpg" class="hvr-grow">
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <img src="./img/photo8.jpg" class="hvr-grow">
+    </div>
+   </div>
+ </div>
+
+<!------------Map-------------->
+<!--Section: Contact v.1-->
+<section class="section pb-5">
+
+  <!--Section heading-->
+  <h2 class="display-4 text-center py-5 my-4" id="contact">Contact Us</h2>
+  <!--Section description-->
+  <p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
+    amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a
+    pariatur accusamus veniam.</p>
+
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-5 mb-4">
+
+      <!--Form with header-->
+      <div class="card">
+
+        <div class="card-body">
+          <!--Header-->
+          <div class="form-header blue accent-1">
+            <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+          </div>
+
+          <p>We'll write rarely, but with only the best content.</p>
+          <br>
+
+          <!--Body-->
+          <div class="md-form">
+            <i class="fas fa-user prefix grey-text"></i>
+            <label for="form-name">Your name</label>
+            <input type="text" id="form-name" class="form-control">
+            
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <label for="form-email">Your email</label>
+            <input type="text" id="form-email" class="form-control">
+           
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <label for="form-text">Subject</label>
+            <input type="text" id="form-text" class="form-control">
+            
+          </div>
+
+         
+
+          <div class="text-center mt-4">
+            <button class="btn btn-light-blue" onclick="checkEmpty()">Submit</button>
+          </div>
+
+        </div>
+
+      </div>
+      <!--Form with header-->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      <!--Google map-->
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <br>
+      <!--Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+          <p>San Francisco, CA 94126</p>
+          <p>United States</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+          <p>+ 01 234 567 89</p>
+          <p>Mon - Fri, 8:00-22:00</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+          <p>info@gmail.com</p>
+          <p>sale@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.1-->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+  </body>

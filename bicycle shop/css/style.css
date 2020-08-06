@@ -1,0 +1,127 @@
+/************NAVBAR************/
+.navbar{
+    background-color: #e3f2fd;
+}
+.btn{
+    background-color: #e3f2fd;
+          } 
+/***********TABS************/
+.tab-content h3{
+    text-align: center;
+}
+.tab-content p{
+    text-align: center;
+}
+/*********GRID***********/
+#bicycle .row img{
+    width: 100%;
+    padding: 1rem;
+}
+#bicycle .row {
+    padding: 2rem;
+}
+.hvr-grow {
+    width: 100%;
+    display: inline-block;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    
+}
+.hvr-grow:hover{    
+    opacity: 0.3;         
+ }
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+ /*************MAP************/
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+/***********CAROUSEL***********/
+.ml12 {
+     position: absolute;
+     font-weight: 200;
+     font-size: 2em;
+     text-transform: uppercase;
+     letter-spacing: 0.5em;
+     top: 20%;
+    }
+      
+.ml12 .letter {
+        display: inline-block;
+        line-height: 2em;
+      }
+
+/************** Push************/
+@-webkit-keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+#hvr-push {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: absolute;
+          top: 40%;
+          left: 25%;
+  }
+#hvr-push:hover, #hvr-push:focus, #hvr-push:active {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  } 
+/**********STORE CARDS***********/
+  
+  .card a{
+      padding: 4%;
+      position: absolute;
+      top: 5%;
+      background-color: #e0e8ee7c;
+      color: #1a3141;
+      text-decoration: none;
+  }
+  
